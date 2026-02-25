@@ -236,7 +236,7 @@ export class OrderController {
               quantity: 1
             }
           ],
-          financial_status: 'pending',
+          financial_status: 'paid',
           fulfillment_status: null,
           tags: tags.join(', '),
           note_attributes: [
